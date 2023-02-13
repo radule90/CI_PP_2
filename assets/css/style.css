@@ -76,3 +76,91 @@ body {
     transform: scale(1.25);
     transition: all .5s linear;
 }
+
+/* Scoreboard table style */
+.scoreboard {
+    text-align: center;
+}
+
+caption {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    margin-inline: auto;
+}
+
+table,
+td,
+th {
+    border: 1px solid #8f3d74;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: .5rem;
+}
+
+.green-field {
+    background-color: rgba(0, 128, 0, 0.527);
+    color: white;
+}
+
+.orange-field {
+    background-color: rgba(255, 166, 0, 0.521);
+}
+
+.red-field {
+    background-color: rgba(255, 0, 0, 0.445);
+    color:white;
+}
+
+/* Style for win and lost messages */
+
+#win-message,
+#lost-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 12%, 0.75);
+}
+
+.message-wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.75rem;
+    padding: 25%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.close {
+    background-color: #ffcf0d;
+    border: none;
+    width: fit-content;
+    margin-inline: auto;
+    font-size: inherit;
+    padding: .5em;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: white;
+    background-color:#ff7c94;
+    transition: all .3s linear;
+}
+
+.message-icon {
+    font-size: 3rem;
+}

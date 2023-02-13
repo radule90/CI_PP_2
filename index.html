@@ -39,27 +39,31 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td class="green-field">0</td>
+                            <td class="orange-field">0</td>
+                            <td class="red-field">0</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
             <div id="win-message">
-                <p>Congratulations, you have won 10 games!</p>
-                <p>🎆 Bravo!!! 🎆</p>
-                <div>🤗 🤗 🤗</div>
-                <p>Continue the winning streak!</p>
-                <button id="close-win" class="close">Let&apos;s Play!</button>
+                <div class="message-wrap">
+                    <p>Congratulations, you have won 10 games!</p>
+                    <p><span class="message-icon">🎆</span> Bravo!!! <span class="message-icon">🎆</span></p>
+                    <div class="message-icon">🤗 🤗 🤗</div>
+                    <p>Continue the winning streak!</p>
+                    <button id="close-win" class="close">Let&apos;s Play!</button>
+                </div>
             </div>
             <div id="lost-message">
-                <p>Unfortunately, you lost 10 games!</p>
-                <div>😥 😥 😥</div>
-                <p>Ready for another try?</p>
-                <p>You might have better luck!</p>
-                <button id="close-lost" class="close">Let&apos;s Try!</button>
+                <div class="message-wrap">
+                    <p>Unfortunately, you lost 10 games!</p>
+                    <div class="message-icon">😥 😥 😥</div>
+                    <p>Ready for another try?</p>
+                    <p>You might have better luck!</p>
+                    <button id="close-lost" class="close">Let&apos;s Try!</button>
+                </div>
             </div>
         </section>
     </main>
