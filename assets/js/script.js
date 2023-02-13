@@ -103,6 +103,7 @@ function incrementScore() {
     draw.innerHTML = drawGames;
 }
 
+
 /**
  * Check if someone has 10 wins, and display message
  */
@@ -112,5 +113,18 @@ function roundWin() {
         winMessage.style.display = "block";
     } else if (computerWins === 10) {
         lostMessage.style.display = "block";
+    }
+}
+
+
+/**
+ * Add event listener to message buttons
+ */
+
+window.onclick = function(event) {
+    if (event.target.id === "close-win") {
+        winMessage.style.display = "none";
+    } else if (event.target.id === "close-lost") {
+        lostMessage.style.display = "none";
     }
 }
