@@ -34,7 +34,7 @@ for (let button of buttons) {
         selectWinner();
         incrementScore();
         roundWin();
-    })
+    });
 }
 
 
@@ -105,14 +105,18 @@ function incrementScore() {
 
 
 /**
- * Check if someone has 10 wins, and display message
+ * Check if someone has 10 wins,
+ * display win/lost message,
+ * calls reset function
  */
 
 function roundWin() {
     if (userWins === 10) {
         winMessage.style.display = "block";
+        resetGame();
     } else if (computerWins === 10) {
         lostMessage.style.display = "block";
+        resetGame();
     }
 }
 
@@ -127,4 +131,21 @@ window.onclick = function(event) {
     } else if (event.target.id === "close-lost") {
         lostMessage.style.display = "none";
     }
+}
+
+
+/**
+ * Resets all values to 0 and empty strings
+ */
+
+function resetGame() {
+    userChoice.innerHTML = "";
+    computerChoiceName.innerHTML = "";
+    resultDisplay.innerHTML = "";
+    userScore.innerHTML = 0;
+    computerScore.innerHTML = 0;
+    draw.innerHTML = 0;
+    userWins = 0;
+    drawGames = 0;
+    computerWins = 0;
 }
