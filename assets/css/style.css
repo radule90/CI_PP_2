@@ -36,3 +36,31 @@ body {
     color: #ff7c94;
     transition: all .3s linear;
 }
+
+/* Game area style*/
+
+/*  */
+.main-area {
+    background-image: linear-gradient(45deg, #b78cf7,#ff7c94,#ffcf0d);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Game area card style and layout */
+.game-area {
+    width: 80%;
+    margin-inline: auto;
+    margin-block: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    background-color: #ffe6eb;
+    color: #8f3d74;
+    box-shadow: 0 0 8px #8f3d74;
+    border-radius: 1rem;
+}
