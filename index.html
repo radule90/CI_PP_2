@@ -18,9 +18,9 @@
         <section class="game-area">
             <h2>Let&apos;s Play!</h2>
             <div class="possible-choices">
-                <button id="rock" class="choices">🪨</button>
-                <button id="paper" class="choices">📃</button>
-                <button id="scissors" class="choices">✂️</button>
+                <button data-selection="rock" class="choices">🪨</button>
+                <button data-selection="paper" class="choices">📃</button>
+                <button data-selection="scissors" class="choices">✂️</button>
             </div>
             <div>
                 <p>User choice: <span id="user-choice-display"></span></p>
@@ -39,9 +39,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="green-field">0</td>
-                            <td class="orange-field">0</td>
-                            <td class="red-field">0</td>
+                            <td id="user-score" class="green-field">0</td>
+                            <td id="draw" class="orange-field">0</td>
+                            <td id="computer-score" class="red-field">0</td>
                         </tr>
                     </tbody>
                 </table>
