@@ -16,6 +16,56 @@
             <h1><a href="#">Rock Paper Scissors</a></h1>
         </div>
     </header>
+    <main>
+        <section class="game-area">
+            <h2>Let&apos;s Play!</h2>
+            <div class="possible-choices">
+                <button id="rock" class="choices">🪨</button>
+                <button id="paper" class="choices">📃</button>
+                <button id="scissors" class="choices">✂️</button>
+            </div>
+            <div>
+                <p>User choice: <span id="user-choice-display"></span></p>
+                <p>Computer choice: <span id="computer-choice-display"></span></p>
+                <p>Result: <span id="result-display"></span></p>
+            </div>
+            <div class="scoreboard">
+                <table>
+                    <caption>Scoreboard</caption>
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Draw</th>
+                            <th>Computer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="win-message">
+                <p>Congratulations, you have won 10 games!</p>
+                <p>🎆 Bravo!!! 🎆</p>
+                <div>🤗 🤗 🤗</div>
+                <p>Continue the winning streak!</p>
+                <button id="close" class="close">Let&apos;s Play!</button>
+            </div>
+            <div id="lost-message">
+                <p>Unfortunately, you lost 10 games!</p>
+                <div>😥 😥 😥</div>
+                <p>Ready for another try?</p>
+                <p>You might have better luck!</p>
+                <button id="close" class="close">Let&apos;s Try!</button>
+            </div>
+        </section>
+    </main>
+
     
 </body>
 </html>
