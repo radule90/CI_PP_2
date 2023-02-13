@@ -10,6 +10,10 @@ const userScore = document.getElementById("user-score");
 const draw = document.getElementById("draw");
 const computerScore = document.getElementById("computer-score");
 
+const winMessage = document.getElementById("win-message");
+const lostMessage = document.getElementById("lost-message");
+
+
 let userChoice;
 let computerChoiceName;
 let selection;
@@ -29,6 +33,7 @@ for (let button of buttons) {
         randomComputerChoice();
         selectWinner();
         incrementScore();
+        roundWin();
     })
 }
 
@@ -96,4 +101,16 @@ function incrementScore() {
     userScore.innerHTML = userWins;
     computerScore.innerHTML = computerWins;
     draw.innerHTML = drawGames;
+}
+
+/**
+ * Check if someone has 10 wins, and display message
+ */
+
+function roundWin() {
+    if (userWins === 10) {
+        winMessage.style.display = "block";
+    } else if (computerWins === 10) {
+        lostMessage.style.display = "block";
+    }
 }
