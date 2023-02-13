@@ -12,7 +12,11 @@ const computerScore = document.getElementById("computer-score");
 
 let userChoice;
 let computerChoiceName;
+let selection;
 
+let userWins = 0;
+let computerWins = 0;
+let drawGames = 0;
 
 /**
  * Add event listener to all the buttons
@@ -24,6 +28,7 @@ for (let button of buttons) {
         userChoiceDisplay.innerHTML = userChoice;
         randomComputerChoice();
         selectWinner();
+        incrementScore();
     })
 }
 
@@ -55,7 +60,6 @@ function randomComputerChoice() {
  */
 
 function selectWinner() {
-    let selection;
     if (userChoice === computerChoiceName) {
         selection = "It's a draw!";
     } else if (userChoice === "Rock" && computerChoiceName === "Paper") {
@@ -73,4 +77,23 @@ function selectWinner() {
       }
 
     resultDisplay.innerHTML = selection;
+}
+
+
+/**
+ * Function counts and increment score
+ */
+
+function incrementScore() {
+    if (selection === "You won!!!") {
+        ++userWins;
+    } else if (selection === "You lost!") {
+        ++computerWins;
+    } else {
+        ++drawGames;
+    }
+
+    userScore.innerHTML = userWins;
+    computerScore.innerHTML = computerWins;
+    draw.innerHTML = drawGames;
 }
