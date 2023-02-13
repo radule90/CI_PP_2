@@ -64,3 +64,15 @@ body {
     box-shadow: 0 0 8px #8f3d74;
     border-radius: 1rem;
 }
+
+/* Possible choices style */
+.choices {
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+}
+
+.choices:hover {
+    transform: scale(1.25);
+    transition: all .5s linear;
+}
