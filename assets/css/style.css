@@ -71,7 +71,7 @@ body {
 
 /* Possible choices styles and layout */
 .possible-choices {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
 }
