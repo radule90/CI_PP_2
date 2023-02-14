@@ -65,7 +65,13 @@ body {
     border-radius: 1rem;
 }
 
-/* Possible choices style */
+/* Possible choices styles and layout */
+.possible-choices {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .choices {
     background-color: transparent;
     border: none;

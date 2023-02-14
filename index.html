@@ -17,10 +17,11 @@
     <main class="main-area">
         <section class="game-area">
             <h2>Let&apos;s Play!</h2>
-            <div class="possible-choices">
-                <button data-selection="Rock" class="choices">🪨</button>
-                <button data-selection="Paper" class="choices">📃</button>
-                <button data-selection="Scissors" class="choices">✂️</button>
+            <!-- Wrapper for possible game choices -->
+            <div class="possible-choices" aria-label="Possible game choices">
+                <button data-selection="Rock" class="choices" aria-label="Rock">🪨</button>
+                <button data-selection="Paper" class="choices" aria-label="Paper">📃</button>
+                <button data-selection="Scissors" class="choices" aria-label="Scissors">✂️</button>
             </div>
             <div>
                 <p>User choice: <span id="user-choice-display"></span></p>
