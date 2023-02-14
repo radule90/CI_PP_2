@@ -1,9 +1,9 @@
 # Rock Paper Scissors Game
 
 
-![Website responsive]()
+![Website responsive](assets/img/readme/respo.png)
 
-[]() short description
+[Rock Paper Scissors Game](https://radule90.github.io/CI_PP_2/) 
 
 
 ***
@@ -179,7 +179,21 @@
 
 ***
 ## Tools and Platforms
-
+- [Gitpod](https://gitpod.io/) - IDE for project development
+- [Github](https://github.com/) - Storing code remotely and deployment
+- [JSHint](https://jshint.com/) - JSHint, a JavaScript Code Quality Tool
+- [W3C Markup Validation Service](https://validator.w3.org)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [CSS Autoprefixer](https://autoprefixer.github.io/) - Autoprefixer CSS online
+- [Coolors.co](https://coolors.co/) - Palette generator
+- [Balsamiq Wireframes](https://balsamiq.com/) - To create wireframes
+- [WebAIM](https://webaim.org/resources/contrastchecker/) - Contrast checker
+- [Am I Responsive](https://ui.dev/amiresponsive) - For device mockup images
+- [Favicon Generator](https://www.favicon-generator.org/)
+- [BrowserStack](https://www.browserstack.com/) - Testing on different devices
+- [Google Fonts](https://fonts.google.com)
+- [Get Emoji](https://getemoji.com/) - Icons/Emojis
+- [FireShot: Full Webpage Screenshots + Annotations](https://getfireshot.com/) - Screen Capture
 
 ***
 ## Content
