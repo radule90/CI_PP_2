@@ -80,6 +80,8 @@ body {
     background-color: transparent;
     border: none;
     font-size: 3rem;
+    filter: drop-shadow(0 0 2px #8f3d74);
+    cursor: pointer;
 }
 
 .choices:hover {
