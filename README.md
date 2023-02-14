@@ -92,13 +92,23 @@
 
 
 ### Colors
-
+- Since this game is basically simple, I wanted to add to the dynamism of the site with various colors for fonts/backgrounds and sharper transitions between sections.
+- As a result, you may see different shades of pink/purple, yellow, black and red.
+- However, I made sure that everything was readable.
+- Colour contrast was first verified on [WebAIM](https://webaim.org/resources/contrastchecker/).  
+![Color Palette from coolors.co](assets/img/readme/palette.webp)
 
 ### Fonts
-
+- I used a lot of different colors for the background and the letters, so I decided on just one font: Roboto from [Google Fonts](https://fonts.google.com/specimen/Roboto?query=roboto).
+- This font is quite clear, legible, simple but still looks cool.  
+![Font example](assets/img/readme/font.webp)
 
 ### Icons
-
+- Icons, or rather emojis, used on the site are taken from [Get Emoji](https://getemoji.com/).
+- They seemed very interesting, even though they are displayed differently on different devices/applications, which can be annoying, but again, I think all of their variants look nice.  
+![Emoji Example](assets/img/readme/emoji.webp)
+- I also used the rock, paper, scissors emojis to create a favicon with the help of [GIMP](https://www.gimp.org/) and [Favicon Generator](https://www.favicon-generator.org/).  
+![Emoji Example](assets/img/readme/emojichoice.webp)
 
 ***
 ## Styling, Formating and Features
@@ -194,6 +204,7 @@ The live link can be found here: [Rock Paper Scissors Game](https://radule90.git
 - [Get Emoji](https://getemoji.com/) - Icons/Emojis
 - [FireShot: Full Webpage Screenshots + Annotations](https://getfireshot.com/) - Screen Capture
 - [cloudconvert](https://cloudconvert.com/png-to-webp) - Online png to webp converter
+- [GIMP](https://www.gimp.org/) - Raster graphics editor
 
 ***
 ## Content
