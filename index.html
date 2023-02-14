@@ -47,22 +47,31 @@
                 </table>
             </div>
 
-            <div id="win-message">
+            <!-- Wrapper for pop up win message -->
+            <div id="win-message" aria-label="Win message shows, after user rich 10 wins">
+                <!-- Wrapper for message layout -->
                 <div class="message-wrap">
                     <p>Congratulations, you have won 10 games!</p>
-                    <p><span class="message-icon">🎆</span> Bravo!!! <span class="message-icon">🎆</span></p>
+                    <p>
+                        <!-- Span wrapper for decoration icon -->
+                        <span class="message-icon">🎆</span> Bravo!!! <span class="message-icon">🎆</span>
+                    </p>
+                    <!-- Wrapepr for decoration content -->
                     <div class="message-icon">🤗 🤗 🤗</div>
                     <p>Continue the winning streak!</p>
-                    <button id="close-win" class="close">Let&apos;s Play!</button>
+                    <button id="close-win" class="close" aria-label="Starts new game">Let&apos;s Play!</button>
                 </div>
             </div>
-            <div id="lost-message">
+            <!-- Wrapper for pop up lost message -->
+            <div id="lost-message" aria-label="Lost message shows after computer rich 10 wins">
+                <!-- Wrapper for message layout -->
                 <div class="message-wrap">
                     <p>Unfortunately, you lost 10 games!</p>
+                    <!-- Wrapepr for decoration content -->
                     <div class="message-icon">😥 😥 😥</div>
                     <p>Ready for another try?</p>
                     <p>You might have better luck!</p>
-                    <button id="close-lost" class="close">Let&apos;s Try!</button>
+                    <button id="close-lost" class="close" aria-label="Starts new game">Let&apos;s Try!</button>
                 </div>
             </div>
         </section>
