@@ -65,7 +65,7 @@ body {
     border-radius: 1rem;
 }
 
-.game-area h2 {
+.game-area > h2 {
     font-size: 2rem;
 }
 
@@ -85,6 +85,19 @@ body {
 .choices:hover {
     transform: scale(1.25);
     transition: all .5s linear;
+}
+
+.game-choice > p {
+    font-weight: bold;
+}
+
+.game-choice-display {
+    font-weight: 400;
+    color: #b78cf7;
+}
+
+#result-display {
+    font-weight: bold;
 }
 
 

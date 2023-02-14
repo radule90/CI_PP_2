@@ -23,10 +23,11 @@
                 <button data-selection="Paper" class="choices" aria-label="Paper">📃</button>
                 <button data-selection="Scissors" class="choices" aria-label="Scissors">✂️</button>
             </div>
-            <div>
-                <p>User choice: <span id="user-choice-display"></span></p>
-                <p>Computer choice: <span id="computer-choice-display"></span></p>
-                <p>Result: <span id="result-display"></span></p>
+            <!-- Wrapper for user and computer choices and score -->
+            <div class="game-choice" aria-label="Selected choices and result">
+                <p>User choice: <span id="user-choice-display" class="game-choice-display"></span></p>
+                <p>Computer choice: <span id="computer-choice-display" class="game-choice-display"></span></p>
+                <p>Result: <span id="result-display" class="game-choice-display"></span></p>
             </div>
             <!-- For more information i have read article https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables -->
             <!-- Wrapper for table scoreboard/result part of the game -->
