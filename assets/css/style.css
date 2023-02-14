@@ -77,7 +77,9 @@ body {
     transition: all .5s linear;
 }
 
-/* Scoreboard table style */
+
+/* Scoreboard table styles */
+/* For more information i have read article https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables */
 .scoreboard {
     text-align: center;
 }
@@ -85,6 +87,7 @@ body {
 caption {
     font-size: 1.25rem;
     font-weight: bold;
+    margin-block-end: 1em;
 }
 
 table {
@@ -93,18 +96,13 @@ table {
     margin-inline: auto;
 }
 
-table,
-td,
-th {
-    border: 1px solid #8f3d74;
-    border-collapse: collapse;
-}
-
 td,
 th {
     padding: .5rem;
+    border-radius: 1.25rem;
 }
 
+/* Change result score fiield color */
 .green-field {
     background-color: rgba(0, 128, 0, 0.527);
     color: white;

@@ -27,14 +27,16 @@
                 <p>Computer choice: <span id="computer-choice-display"></span></p>
                 <p>Result: <span id="result-display"></span></p>
             </div>
-            <div class="scoreboard">
+            <!-- For more information i have read article https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables -->
+            <!-- Wrapper for table scoreboard/result part of the game -->
+            <div class="scoreboard" aria-label="Result scoreboard">
                 <table>
                     <caption>Scoreboard</caption>
                     <thead>
                         <tr>
-                            <th>User</th>
-                            <th>Draw</th>
-                            <th>Computer</th>
+                            <th scope="col">USER</th>
+                            <th scope="col">DRAW</th>
+                            <th scope="col">CP</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,7 +48,6 @@
                     </tbody>
                 </table>
             </div>
-
             <!-- Wrapper for pop up win message -->
             <div id="win-message" aria-label="Win message shows, after user rich 10 wins">
                 <!-- Wrapper for message layout -->
@@ -76,7 +77,6 @@
             </div>
         </section>
     </main>
-
     <footer class="footer">
         <h2>Rules</h2>
         <!-- Wrapepr for layout content -->
