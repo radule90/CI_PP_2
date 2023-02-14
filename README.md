@@ -171,11 +171,24 @@
 
 ***
 ## Deployment
+This site was deployed through GitHub Pages using the following steps:
+1. Sign in to the GitHub website.
+2. In the GitHub project repository, navigate to the Settings tab, then choose Pages from the menu
+3. From the Build and deployment section select Branch: main and then save.
+4. After about a minute, refresh the page and under GitHub Pages you will see a link.
 
+The live link can be found here: [Rock Paper Scissors Game](https://radule90.github.io/CI_PP_2/).
 
 ***
 ## Credits
-
+- [Code Institute](https://codeinstitute.net/de/)
+- Rory Patrick Sheridan (Mentor) - Great advice and guidance
+- [Mozilla Developer Networks](https://developer.mozilla.org/en-US/) - Additional learning resources
+- [W3Schools](https://www.w3schools.com) - Additional learning resources
+- [CSS-Tricks](https://css-tricks.com) - Additional learning resources
+- [Dave Gray](https://www.youtube.com/c/DaveGrayTeachesCode) - Additional learning resources
+- [Kevin Powell](https://www.youtube.com/@KevinPowell) - Additional learning resources
+- [BrowserStack](https://www.browserstack.com/) - Website Testing on iOS
 
 ***
 ## Tools and Platforms
@@ -194,6 +207,7 @@
 - [Google Fonts](https://fonts.google.com)
 - [Get Emoji](https://getemoji.com/) - Icons/Emojis
 - [FireShot: Full Webpage Screenshots + Annotations](https://getfireshot.com/) - Screen Capture
+- [cloudconvert](https://cloudconvert.com/png-to-webp) - Online png to webp converter
 
 ***
 ## Content
@@ -202,3 +216,4 @@
 
 ***
 ## Media
+- Decorative icons are taken from [Get Emoji](https://getemoji.com/)
