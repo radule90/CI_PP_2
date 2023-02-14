@@ -119,8 +119,9 @@ th {
     color:white;
 }
 
-/* Style for win and lost messages */
 
+/* Style for win and lost messages */
+/* Sets win/lost message size, style and hide it */
 #win-message,
 #lost-message {
     display: none;
@@ -132,18 +133,25 @@ th {
     background-color: hsla(0, 0%, 12%, 0.75);
 }
 
+/* Layout and style for win/lost message */
 .message-wrap {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.75rem;
-    padding: 25%;
+    align-items: center;
+    gap: 2rem;
+    padding: 15%;
     color: white;
     text-align: center;
     font-size: 1.5rem;
 }
 
+.message-icon {
+    font-size: 4rem;
+}
+
+/* Style for win/lost message card button */
 .close {
     background-color: #ffcf0d;
     border: none;
@@ -161,9 +169,12 @@ th {
     transition: all .3s linear;
 }
 
-.message-icon {
-    font-size: 3rem;
+/* Center text with icon*/
+.center-icon {
+    display: flex;
+    align-items: center;
 }
+
 
 /* Footer style */
 .footer {
@@ -184,7 +195,6 @@ th {
 
 
 /* Error 404 page styles */
-
 .error-area {
     text-align: center;
     gap: 3rem;
