@@ -178,7 +178,9 @@ th {
     text-align: center;
 }
 
-
+.footer > h2 {
+    color: #ffcf0d;
+}
 
 
 /* Error 404 page styles */
