@@ -1,9 +1,9 @@
 # Rock Paper Scissors Game
 
 
-![Website responsive](assets/img/readme/respo.png)
+![Website responsive](assets/img/readme/respo.webp)
 
-[Rock Paper Scissors Game](https://radule90.github.io/CI_PP_2/) 
+[Rock Paper Scissors Game](https://radule90.github.io/CI_PP_2/) is a simple game. Where the user chooses his choice and immediately receives a random response from the opponent (computer) together with the result of the game. The winner is decided by the number of wins, the first to win 10 times is the winner of the game.
 
 
 ***
