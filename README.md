@@ -1,6 +1,5 @@
 # Rock Paper Scissors Game
 
-
 ![Website responsive](assets/img/readme/respo.webp)
 
 [Rock Paper Scissors Game](https://radule90.github.io/CI_PP_2/) is a simple game. Where the user chooses his choice and immediately receives a random response from the opponent (computer) together with the result of the game. The winner is decided by the number of wins, the first to win 10 times is the winner of the game.
@@ -24,7 +23,6 @@
       - [Colors](#colors)
       - [Fonts](#fonts)
       - [Icons](#icons)
-      - [Images](#images)
 
 </details>
 
@@ -33,10 +31,7 @@
 
       - [Head Section](#head-section)
       - [Header Section](#header-section)
-      - [About Section](#about-section)
-      - [Blog Section](#blog-section)
-      - [Gallery Section](#gallery-section)
-      - [Connect Section](#connect-section)
+      - [Game Section](#game-section)
       - [Footer Section](#footer-section)
       - [HTTP 404 Page](#http-404-page)
       - [Future Features](#future-features)
@@ -105,10 +100,6 @@
 ### Icons
 
 
-### Images
-
-
-
 ***
 ## Styling, Formating and Features
 
@@ -119,24 +110,19 @@
 ### Header Section
 
 
-### About Section
- 
-
-
-### Blog Section
-
-
-### Gallery Section
-
-
-### Connect Section
+### Game Section
 
 
 ### Footer Section
 
 
 ### HTTP 404 Page
+- As a small addition I designed and developed an 404 HTTP error page.
+- I kept the header and footer of the main page, without Rules of the game in footer section.
+- I didn't want to be it too complicated, because there should be a simple message on this page. Using the same color palette and fonts I added an error message card and an additional link to the main page.
+![HTTP404 Image](assets/img/readme/404.webp)
 
+- [Here you can find broken link as example for 404 page.](https://radule90.github.io/CI_PP_2/11)
 
 ### Future Features
 
