@@ -18,20 +18,20 @@
         <section class="game-area">
             <h2>Let&apos;s Play!</h2>
             <!-- Wrapper for possible game choices -->
-            <div class="possible-choices" aria-label="Possible game choices">
+            <div class="possible-choices">
                 <button data-selection="Rock" class="choices" aria-label="Rock">🪨</button>
                 <button data-selection="Paper" class="choices" aria-label="Paper">📃</button>
                 <button data-selection="Scissors" class="choices" aria-label="Scissors">✂️</button>
             </div>
             <!-- Wrapper for user and computer choices and score -->
-            <div class="game-choice" aria-label="Selected choices and result">
+            <div class="game-choice">
                 <p>User choice: <span id="user-choice-display" class="game-choice-display"></span></p>
                 <p>Computer choice: <span id="computer-choice-display" class="game-choice-display"></span></p>
                 <p>Result: <span id="result-display" class="game-choice-display"></span></p>
             </div>
             <!-- For more information i have read article https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables -->
             <!-- Wrapper for table scoreboard/result part of the game -->
-            <div class="scoreboard" aria-label="Result scoreboard">
+            <div class="scoreboard">
                 <table>
                     <caption>Scoreboard</caption>
                     <thead>
@@ -51,7 +51,7 @@
                 </table>
             </div>
             <!-- Wrapper for pop up win message -->
-            <div id="win-message" aria-label="Win message shows, after user rich 10 wins">
+            <div id="win-message">
                 <!-- Wrapper for message layout -->
                 <div class="message-wrap">
                     <p>Congratulations, you have won 10 games!</p>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <!-- Wrapper for pop up lost message -->
-            <div id="lost-message" aria-label="Lost message shows after computer rich 10 wins">
+            <div id="lost-message">
                 <!-- Wrapper for message layout -->
                 <div class="message-wrap">
                     <p>Unfortunately, you lost 10 games!</p>
