@@ -143,7 +143,7 @@
 
 
 #### Desktop Testing
-.
+
 
 #### Mobile Testing
 
@@ -197,9 +197,15 @@ The live link can be found here: [Rock Paper Scissors Game](https://radule90.git
 
 ***
 ## Content
-
-
+- The following three tutorials helped me arrive at the final code solution
+    - [3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)
+    ](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+    - [A game of Rock Paper Scissors written in JavaScript ✋
+    ](https://www.youtube.com/watch?v=n1_vHArDBRA)
+    - [Web Development Tutorial - JavaScript, HTML, CSS - Rock Paper Scissors Game
+    ](https://www.youtube.com/watch?v=jaVNP3nIAv0)
+- Thanks to them for the amazing tutorials!!!
 
 ***
 ## Media
-- Decorative icons are taken from [Get Emoji](https://getemoji.com/)
+- Decorative icons/emojis are taken from [Get Emoji](https://getemoji.com/)
