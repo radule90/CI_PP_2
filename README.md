@@ -41,10 +41,9 @@
 4. <details>
     <summary><a href="#validation-and-testing">Validation and Testing</a></summary>
     <ul>
-    <li><a href="#html-validation">HTML Validation</a></li>
-    <li><a href="#css-validation">CSS Validation</a></li>
+    <li><a href="#validation-table">Validation</a></li>
     <li><a href="#accessibility">Accessibility</a></li>
-    <li>
+       <li>
       <details>
       <summary><a href="#testing">Testing</a></summary>
 
@@ -308,21 +307,25 @@ Simple website / application, which simply serves to entertain the user, which c
    </tbody>
  </table>
 
-### CSS Validation
-
-
 ### Accessibility
+- Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).
+- Results from Google Lighthouse Accessibility can be found above in the [Validation Table](#validation-table).
 
 
 ### Testing
 #### General Testing
-
+- The app works well on all tested devices, mostly Windows and Android.
+- All functions work properly, the site is responsive even though no media queries were used
+- The application showed no errors in increasing the score, checking the final winner, resetting, it works without errors.
+- Since emoji are unicode, they display differently on different software / devices, but this is not a bug, but normal behavior.
 
 #### Desktop Testing
-
+- It was tested on several Windows computers by acquaintances and friends, worked without errors.
+- The site was tested on a macOS computer and performed very well
 
 #### Mobile Testing
-
+- It has been successfully tested on multiple android devices and also on multiple virtual devices at [BrowserStack](https://www.browserstack.com/).
+- It has been tested on ios devices, a [bug](#fixed-bugs) was found with the layout which has been fixed, now it works fine
 
 ### Bugs
 ### Fixed Bugs
