@@ -77,14 +77,15 @@
 ***
 ## UX
 ### Visitor Goals
-
-
+Target audience for this website:  
+- Anyone who wants some short, simple fun with a classic game
+- To play the entire game in just a few seconds or to repeat it multiple times
 
 ### Business Goals
-
+This site / application is of a fun character, and its scope is insufficient for a business model, but as a fun addition to a larger site to entertain the user, it is possible.
 
 ### User Stories
-
+Simple website / application, which simply serves to entertain the user, which can last one or more games or even several rounds.
 
 ***
 ## Visual Design
@@ -164,7 +165,10 @@
 - [Here you can find broken link as example for 404 page.](https://radule90.github.io/CI_PP_2/11)
 
 ### Future Features
-
+- As I said, the code needs to be reformatted, use the ternary operator, write it more abstractly, but these are upgrades that will follow in the future.
+- Adding additional choices (Lizard, Spock)
+- Instead of text display of results, animations
+- Game between two users
 
 ***
 ## Validation and Testing
