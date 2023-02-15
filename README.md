@@ -90,7 +90,7 @@ Simple website / application, which simply serves to entertain the user, which c
 ***
 ## Visual Design
 ### Wireframes
-
+- Initial [Wireframes](assets/img/readme/wireframes/) design.
 
 ### Colors
 - Since this game is basically simple, I wanted to add to the dynamism of the site with various colors for fonts/backgrounds and sharper transitions between sections.
