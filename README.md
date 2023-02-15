@@ -115,10 +115,15 @@
 
 
 ### Head Section
-
+- For meta data I added character set, keywords, description, viewport, linked CSS and JavaScript file.
+- I also added a favicon. I used the rock, paper, scissors emojis from [Get Emoji](https://getemoji.com/) to create a favicon with the help of [GIMP](https://www.gimp.org/) and [Favicon Generator](https://www.favicon-generator.org/).
+- And title for page.
 
 ### Header Section
-
+- I decided on a very simple header containing the title of the game which is also a link to the main page.
+- The combination of shades of black and pink seemed to me an interesting choice for the header.
+- Due to little content and centered text, the header is responsive.
+![Website Header](assets/img/readme/header.webp)
 
 ### Game Section
 
