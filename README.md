@@ -112,7 +112,11 @@
 
 ***
 ## Styling, Formating and Features
-
+- In HTML I have used semantic elements in appropriate places and HTML entities. Whereas I used div (non-semantic) elements as container for layout and positioning.
+- I did most of the positioning with Flexbox (learnd at [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)), while I feel comfortable working with it.
+- By combining the width in percentages and the maximum width in absolute units (pixels), Flexbox and thanks to the limited content of the header and footer, I achieved a responsive site without using media queries.
+- For JavaScript, I wrote a flowchart on paper and tried to follow. Thanks to the resources listed in [Content Section](#content), I was able to achieve everything I set out to do ([In more detail.](#game-section)).
+- I am aware that the code could be reduced and reshaped, to be more abstract. But because I'm still in the process of learning, I left it more verbose.
 
 ### Head Section
 - For meta data I added character set, keywords, description, viewport, linked CSS and JavaScript file.
@@ -126,7 +130,23 @@
 ![Website Header](assets/img/readme/header.webp)
 
 ### Game Section
-
+- Classic Rock Paper Scissors vs Computer (CP) game, where the user chooses his choice and immediately receives a random response from the opponent (computer) together with the result of the game. The winner is decided by the number of wins, the first to win 10 times is the winner of the game.  
+![Game Card Area](assets/img/readme/main-card.webp)  
+- A small title "Let's Play!", which suggests that the user can start playing right away.  
+![Possible Choices](assets/img/readme/choices.webp)  
+- Then there are three possible choices for the user to choose from and that's where I applied JavaScript for the first time, adding event listeners for all three options so that when one of the possible choices is clicked, it is immediately written in the User's choice field (using the element proporty of innerHTML) and the following functions are launched.  
+![Result](assets/img/readme/result.webp)  
+- A random choice computer function, where I used methods of the Math object and switch statements to assign values to random numbers. At first I thought to do it using if statements, but for the sake of practice I decided to use switch. And the selection is entered in the corresponding field (using the element proporty of innerHTML).
+- It is immediately followed by a function that determines the winner with if else statements, there are better solutions, but I decided on this one, even though it is verbose, it is currently the most readable for me. Result is entered in the corresponding field (using the element proporty of innerHTML).  
+![Scoreboard](assets/img/readme/scoreboard.webp)  
+- I decided to display the results using a table elements of HTML, it seemed logical to me to use because it is tabular data.
+- Also a fairly simple solution for counting the score with the help of a simple function that recognizes winner/loser/tie messages with if else statements and increments score.
+- To determine the final winner, I created a function that simply checks with if else statements whether the user or the computer has reached 10 wins. And if it is, JavaScript changes the style of the display element to block so that the corresponding message (winner or loser) appears.  
+![Win Message](assets/img/readme/win.webp)  
+![Lost Message](assets/img/readme/lost.webp)  
+- For the messages, I decided to make the background a transparent black shade so that the game background is partially visible. The text is white, I think it's the most legible. I also added a link to start a new game and styled it using the colors from the palette.
+- Just as I tried to make the entire java script simple, so here I tried to click on the message button with a simple onclick event to trigger a function that returns the display state of the message to none, in order to remove
+- Immediately after that, the last function, which is called as part of the function to check the final winner, is started, which returns the state of the variables to empty strings and 0, resets the game.
 
 ### Footer Section
 - For the footer section I chose the same background color as for the header, because it is drastically different from the game area.
