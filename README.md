@@ -129,7 +129,11 @@
 
 
 ### Footer Section
-
+- For the footer section I chose the same background color as for the header, because it is drastically different from the game area.
+- I decided to put the short rules of the game in the footer. I thought about making a separate card with the rules, but somehow it seemed to me that this solution was quite simple in line with the whole site. I emphasized the importance of the title in yellow, while the rest of the text was written in white.
+- Due to the centered text and content width, the footer is also responsive.
+- I included a copyright text in it with pink colored link to repositary of this game.  
+![Website Footer](assets/img/readme/footer.webp)
 
 ### HTTP 404 Page
 - As a small addition I designed and developed an 404 HTTP error page.
