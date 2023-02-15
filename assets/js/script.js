@@ -131,7 +131,7 @@ window.onclick = function(event) {
     } else if (event.target.id === "close-lost") {
         lostMessage.style.display = "none";
     }
-}
+};
 
 
 /**

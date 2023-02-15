@@ -59,7 +59,7 @@
       <summary><a href="#bugs">Bugs</a></summary>
       
       - [Fixed Bugs](#fixed-bugs)
-      - [Unfixed Bugs](#unfixed-bugs-partialy-fixed)
+
       </details>
     </li>
     </ul>    
@@ -172,8 +172,141 @@ Simple website / application, which simply serves to entertain the user, which c
 
 ***
 ## Validation and Testing
-### HTML Validation
+### Validation Table
 
+
+ <table>
+   <thead>
+     <tr>
+       <th></th>
+       <th><a href="https://validator.w3.org">HTML Validation</a></th>
+       <th><a href="https://jigsaw.w3.org/css-validator/">CSS Validation</a></th>
+       <th><a href="https://jshint.com/">JSHint</a></th>
+       <th><a href="https://developer.chrome.com/docs/lighthouse/overview/">Google Chrome Lighthouse</a></th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <th>Mobile</th>
+       <td>No errors or warnings to show.</td>
+       <td>Congratulations! No Error Found.</td>
+       <td>
+         <ul>
+           <li>There are 7 functions in this file.</li>
+           <li>Function with the largest signature take 1 arguments, while the median is 0.</li>
+           <li>Largest function has 9 statements in it, while the median is 6.</li>
+           <li>The most complex function has a cyclomatic complexity value of 14 while the median is 3.</li>
+           <li>19 warnings
+             <ul>
+               <li>'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).</li>
+               <li>'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).</li>
+               <li>'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).</li>
+               <li>Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (userChoice, randomComputerChoice, selectWinner, incrementScore, roundWin)</li>
+             </ul>
+           </li>
+         </ul>
+       </td>
+       <td>
+         <table>
+           <tr>
+             <th>Performance</th>
+             <td>99</td>
+           </tr>
+           <tr>
+             <th>Accessibility</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>Best Practices</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>SEO</th>
+             <td>100</td>
+           </tr>
+         </table>
+       </td>
+     </tr>
+     <tr>
+       <th>Computer</th>
+       <td>No errors or warnings to show.</td>
+       <td>Congratulations! No Error Found.</td>
+       <td>Same as above</td>
+              <td>
+         <table>
+           <tr>
+             <th>Performance</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>Accessibility</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>Best Practices</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>SEO</th>
+             <td>100</td>
+           </tr>
+         </table>
+       </td>
+     </tr>
+     <tr>
+       <th>Mobile (404 Page)</th>
+       <td>No errors or warnings to show.</td>
+       <td>Congratulations! No Error Found.</td>
+       <td>Same as above</td>
+              <td>
+         <table>
+           <tr>
+             <th>Performance</th>
+             <td>99</td>
+           </tr>
+           <tr>
+             <th>Accessibility</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>Best Practices</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>SEO</th>
+             <td>100</td>
+           </tr>
+         </table>
+       </td>
+     </tr>
+     <tr>
+       <th>Computer (404 Page)</th>
+       <td>No errors or warnings to show.</td>
+       <td>Congratulations! No Error Found.</td>
+       <td>Same as above</td>
+              <td>
+         <table>
+           <tr>
+             <th>Performance</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>Accessibility</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>Best Practices</th>
+             <td>100</td>
+           </tr>
+           <tr>
+             <th>SEO</th>
+             <td>100</td>
+           </tr>
+         </table>
+       </td>
+     </tr>
+   </tbody>
+ </table>
 
 ### CSS Validation
 
@@ -193,11 +326,11 @@ Simple website / application, which simply serves to entertain the user, which c
 
 ### Bugs
 ### Fixed Bugs
-
-
-### Unfixed Bugs (Partialy Fixed)
-
-
+- Chrome Lighthouse was returning manifest errors, so I found [this solution](https://github.com/jantimon/favicons-webpack-plugin/issues/212).
+- iOS bug with emoji flexbox layout, although on android devices everything worked as it should, on ios there was the following problem  
+![iOS Bug](assets/img/readme/bug.webp)
+i have fixed with flexbox property `align-self: center;`, thanks to [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).  
+![iOS Bug](assets/img/readme/bugfixed.webp)
 ***
 ## Deployment
 This site was deployed through GitHub Pages using the following steps:
