@@ -37,11 +37,23 @@ for (let button of buttons) {
  */
 function letsPlay() {
     userChoice = this.getAttribute("data-selection");
+    userChoiceValidation();
     userChoiceDisplay.innerHTML = userChoice;
     randomComputerChoice();
     selectWinner();
     incrementScore();
     roundWin();
+}
+
+
+/**
+ * Check if user input is valid
+ */
+function userChoiceValidation() {
+    if (userChoice !== "Rock" && userChoice !== "Paper" && userChoice !== "Scissors") {
+        alert("Something went wrong, the selection is invalid!");
+        throw "Something went wrong, the selection is invalid! Aborting!";
+    }
 }
 
 
