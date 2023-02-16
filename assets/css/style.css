@@ -151,6 +151,38 @@ body {
     font-weight: bold;
 }
 
+/* Result display styles, class added with JS depending on result */
+.win-color {
+    display: inline-block;
+    background-color: rgba(0, 128, 0, 0.527);
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    padding: .25em .5em;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+}
+
+.lost-color {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.445);
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    padding: .25em .5em;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+}
+
+.draw-color {
+    display: inline-block;
+    background-color: rgba(255, 166, 0, 0.521);
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    padding: .25em .5em;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+}
 
 /* Scoreboard table styles */
 /* For more information i have read article https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables */
