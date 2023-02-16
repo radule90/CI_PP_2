@@ -46,7 +46,9 @@ function letsPlay() {
 
 
 /**
- * Generates computer random choice and associate the name to number
+ * Generates computer random choice and 
+ * associate the name to number
+ * if the selection does not exist, it throws an error
  */
 
 function randomComputerChoice() {
@@ -61,6 +63,9 @@ function randomComputerChoice() {
         case 3:
             computerChoiceName = "Scissors";
             break;
+        default:
+            alert("Something went wrong, the selection is invalid!");
+            throw "Something went wrong, the selection is invalid! Aborting!";
     }
 
     computerChoiceDisplay.innerHTML = computerChoiceName;
