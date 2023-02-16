@@ -24,17 +24,24 @@ let drawGames = 0;
 
 /**
  * Add event listener to all the buttons
+ * which triggers the function to start the game
  */
 
 for (let button of buttons) {
-        button.addEventListener("click", function() {
-        userChoice = this.getAttribute("data-selection");
-        userChoiceDisplay.innerHTML = userChoice;
-        randomComputerChoice();
-        selectWinner();
-        incrementScore();
-        roundWin();
-    });
+        button.addEventListener("click", letsPlay);
+}
+
+
+/**
+ * Function starts the game
+ */
+function letsPlay() {
+    userChoice = this.getAttribute("data-selection");
+    userChoiceDisplay.innerHTML = userChoice;
+    randomComputerChoice();
+    selectWinner();
+    incrementScore();
+    roundWin();
 }
 
 
