@@ -1,7 +1,6 @@
 /**
- * Declare variables for DOM elements
+ * Declare global variables for DOM elements
  */
-
 const buttons = document.querySelectorAll("[data-selection]");
 const userChoiceDisplay = document.getElementById("user-choice-display");
 const computerChoiceDisplay = document.getElementById("computer-choice-display");
@@ -22,11 +21,11 @@ let userWins = 0;
 let computerWins = 0;
 let drawGames = 0;
 
+
 /**
  * Add event listener to all the buttons
  * which triggers the function to start the game
  */
-
 for (let button of buttons) {
         button.addEventListener("click", letsPlay);
 }
@@ -62,7 +61,6 @@ function userChoiceValidation() {
  * associate the name to number
  * if the selection does not exist, it throws an error
  */
-
 function randomComputerChoice() {
     const randomNumber = Math.floor(Math.random() * buttons.length + 1);
     switch(randomNumber) {
@@ -87,7 +85,6 @@ function randomComputerChoice() {
 /**
  * Compare results and selects winner
  */
-
 function selectWinner() {
     if (userChoice === computerChoiceName) {
         selection = "It's a draw!";
@@ -133,7 +130,6 @@ function resultColorChange() {
 /**
  * Function counts and increment score
  */
-
 function incrementScore() {
     if (selection === "You won!!!") {
         ++userWins;
@@ -154,7 +150,6 @@ function incrementScore() {
  * display win/lost message,
  * calls reset function
  */
-
 function roundWin() {
     if (userWins === 10) {
         winMessage.style.display = "block";
@@ -168,8 +163,8 @@ function roundWin() {
 
 /**
  * Add event listener to message buttons
+ * and removes message on click
  */
-
 window.onclick = function(event) {
     if (event.target.id === "close-win") {
         winMessage.style.display = "none";
@@ -180,9 +175,10 @@ window.onclick = function(event) {
 
 
 /**
- * Resets all values to 0 and empty strings
+ * Resets all values to 0,
+ * empty strings
+ * and remove classes
  */
-
 function resetGame() {
     userChoice.innerHTML = "";
     computerChoiceName.innerHTML = "";
