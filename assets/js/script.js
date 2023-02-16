@@ -86,9 +86,30 @@ function selectWinner() {
         selection = "You lost!";
     } else if (userChoice === "Rock" && computerChoiceName === "Scissors") {
         selection = "You won!!!";
-      }
-
+    }
+      
+    resultColorChange();
     resultDisplay.innerHTML = selection;
+}
+
+
+/**
+ * Add class to result display for styling depending on result
+ */
+function resultColorChange() {
+    if (selection === "You won!!!") {
+        resultDisplay.classList.remove("lost-color");
+        resultDisplay.classList.remove("draw-color");
+        resultDisplay.classList.add("win-color");
+    } else if (selection === "You lost!") {
+        resultDisplay.classList.remove("draw-color");
+        resultDisplay.classList.remove("win-color");
+        resultDisplay.classList.add("lost-color");
+    } else if (selection === "It's a draw!") {
+        resultDisplay.classList.remove("win-color");
+        resultDisplay.classList.remove("lost-color");
+        resultDisplay.classList.add("draw-color");
+    }
 }
 
 
@@ -155,4 +176,7 @@ function resetGame() {
     userWins = 0;
     drawGames = 0;
     computerWins = 0;
+    resultDisplay.classList.remove("win-color");
+    resultDisplay.classList.remove("lost-color");
+    resultDisplay.classList.remove("draw-color");
 }
