@@ -213,9 +213,9 @@ Simple website / application, which simply serves to entertain the user, which c
        <td>Congratulations! No Error Found.</td>
        <td>
          <ul>
-           <li>There are 8 functions in this file.</li>
+           <li>There are 9 functions in this file.</li>
            <li>Function with the largest signature take 1 arguments, while the median is 0.</li>
-           <li>Largest function has 12 statements in it, while the median is 6.5.</li>
+           <li>Largest function has 12 statements in it, while the median is 7.</li>
            <li>The most complex function has a cyclomatic complexity value of 14 while the median is 3.</li>
          </ul>
        </td>
