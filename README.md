@@ -143,7 +143,21 @@ Simple website / application, which simply serves to entertain the user, which c
 ![Possible Choices](assets/img/readme/choices.webp)  
 - Then there are three possible choices for the user to choose from and that's where I applied JavaScript for the first time, adding event listeners for all three options so that when one of the possible choices is clicked, immediately the function that starts the game is run, actually calls the other functions to execute, and writes the user's choice into the user's selection field (using the element proporty of innerHTML).  
 ![Result](assets/img/readme/result.webp)  
+- I added a small function that checks the user's selection and if not existing alerts the user and throws error to the console. Example:
+   - I changed the data selection value from Rock to Sponge  
+   ![Data Attribute Error](assets/img/readme/data-attr-error.webp)  
+   - Chose a Rock and got a alert message
+   ![User Alert Error](assets/img/readme/user-error.webp)  
+   - and also in the console
+   ![User Console Error](assets/img/readme/user-console-error.webp)  
 - A random choice computer function, where I used methods of the Math object and switch statements to assign values to random numbers. At first I thought to do it using if statements, but for the sake of practice I decided to use switch. And the selection is entered in the corresponding field (using the element proporty of innerHTML).
+- For the random selection of the computer, I did not use the function to check the validity of the selection, but added to the switch statement that by default an error is output if the selection of the computer is not from 1 to 3. Example:
+   - I changed the random selection of computer  
+   ![Random Number Error](assets/img/readme/cp-random-err.webp)  
+   - After a couple of tries, came up with an invalid choice  
+   ![Computer Alert Error](assets/img/readme/cp-error.webp)  
+   - and also in the console  
+   ![Computer Console Error](assets/img/readme/cp-console-error.webp)  
 - It is immediately followed by a function that determines the winner with if else statements, there are better solutions, but I decided on this one, even though it is verbose, it is currently the most readable for me. Result is entered in the corresponding field (using the element proporty of innerHTML). Also in order to emphasize the change even more, styles are added depending on the result. I have achieved with a function that recognizes the result and properties [`Element.classList.add`](https://www.w3schools.com/howto/howto_js_add_class.asp) and [`Element.classList.remove`](https://www.w3schools.com/howto/howto_js_remove_class.asp).  
 ![Result Color Change](assets/img/readme/result-display-color.webp)  
 - I decided to display the results using a table elements of HTML, it seemed logical to me to use because it is tabular data.  
