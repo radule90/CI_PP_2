@@ -146,9 +146,9 @@ Simple website / application, which simply serves to entertain the user, which c
 - I added a small function that checks the user's selection and if not existing alerts the user and throws error to the console. Example:
    - I changed the data selection value from Rock to Sponge  
    ![Data Attribute Error](assets/img/readme/data-attr-error.webp)  
-   - Chose a Rock and got a alert message
+   - Chose a Rock and got a alert message  
    ![User Alert Error](assets/img/readme/user-error.webp)  
-   - and also in the console
+   - and also in the console  
    ![User Console Error](assets/img/readme/user-console-error.webp)  
 - A random choice computer function, where I used methods of the Math object and switch statements to assign values to random numbers. At first I thought to do it using if statements, but for the sake of practice I decided to use switch. And the selection is entered in the corresponding field (using the element proporty of innerHTML).
 - For the random selection of the computer, I did not use the function to check the validity of the selection, but added to the switch statement that by default an error is output if the selection of the computer is not from 1 to 3. Example:
