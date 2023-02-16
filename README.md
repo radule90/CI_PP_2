@@ -195,14 +195,6 @@ Simple website / application, which simply serves to entertain the user, which c
            <li>Function with the largest signature take 1 arguments, while the median is 0.</li>
            <li>Largest function has 9 statements in it, while the median is 6.</li>
            <li>The most complex function has a cyclomatic complexity value of 14 while the median is 3.</li>
-           <li>19 warnings
-             <ul>
-               <li>'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).</li>
-               <li>'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).</li>
-               <li>'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).</li>
-               <li>Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (userChoice, randomComputerChoice, selectWinner, incrementScore, roundWin)</li>
-             </ul>
-           </li>
          </ul>
        </td>
        <td>
