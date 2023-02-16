@@ -51,8 +51,8 @@ function letsPlay() {
  */
 function userChoiceValidation() {
     if (userChoice !== "Rock" && userChoice !== "Paper" && userChoice !== "Scissors") {
-        alert("Something went wrong, the selection is invalid!");
-        throw "Something went wrong, the selection is invalid! Aborting!";
+        alert("Something went wrong, user selection is invalid!");
+        throw "Something went wrong, user selection is invalid! Aborting!";
     }
 }
 
@@ -76,8 +76,8 @@ function randomComputerChoice() {
             computerChoiceName = "Scissors";
             break;
         default:
-            alert("Something went wrong, the selection is invalid!");
-            throw "Something went wrong, the selection is invalid! Aborting!";
+            alert("Something went wrong, computer selection is invalid!");
+            throw "Something went wrong, computer selection is invalid! Aborting!";
     }
 
     computerChoiceDisplay.innerHTML = computerChoiceName;
