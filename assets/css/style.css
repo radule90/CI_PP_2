@@ -289,8 +289,7 @@ th {
     gap: 2rem;
     background-color: #1f1f1f;
     color: white;
-    -webkit-padding-before: 1.75rem;
-            padding-block-start: 1.75rem;
+    padding-block: 1.75rem;
     text-align: center;
 }
 
