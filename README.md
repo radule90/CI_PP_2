@@ -65,7 +65,14 @@
 
 </details>
   
-5. <a href="#deployment">Deployment</a> 
+5. <details>
+    <summary> <a href="#deployment">Deployment</a></summary>
+
+      - [Github Deployment](#github-deployment)
+      - [Local Deployment](#local-deployment)
+
+</details> 
+
 6. <a href="#credits">Credits</a>
 7. <a href="#tools-and-platforms">Tools and Platforms</a>
 8. <a href="#content">Content</a>
@@ -191,9 +198,9 @@ Simple website / application, which simply serves to entertain the user, which c
        <td>Congratulations! No Error Found.</td>
        <td>
          <ul>
-           <li>There are 7 functions in this file.</li>
+           <li>There are 8 functions in this file.</li>
            <li>Function with the largest signature take 1 arguments, while the median is 0.</li>
-           <li>Largest function has 9 statements in it, while the median is 6.</li>
+           <li>Largest function has 12 statements in it, while the median is 6.5.</li>
            <li>The most complex function has a cyclomatic complexity value of 14 while the median is 3.</li>
          </ul>
        </td>
@@ -328,6 +335,7 @@ i have fixed with flexbox property `align-self: center;`, thanks to [CSS-Tricks]
 ![iOS Bug](assets/img/readme/bugfixed.webp)
 ***
 ## Deployment
+### Github Deployment
 This site was deployed through GitHub Pages using the following steps:
 1. Sign in to the GitHub website.
 2. In the GitHub project repository, navigate to the Settings tab, then choose Pages from the menu
@@ -335,6 +343,32 @@ This site was deployed through GitHub Pages using the following steps:
 4. After about a minute, refresh the page and under GitHub Pages you will see a link.
 
 The live link can be found here: [Rock Paper Scissors Game](https://radule90.github.io/CI_PP_2/).
+
+### Local Deployment
+#### Requirements
+- An IDE of your choice ([Visual Studio Code](https://code.visualstudio.com/))
+- [Git](https://git-scm.com/)
+
+#### How to Clone
+1. Go to the repository of [project](https://github.com/radule90/CI_PP_2)
+2. Click on the Code button above the list of files
+3. Choose one of remote URL: HTTPS, SSH, GitHub CLI and click the copy button or download a copy of the [project repository](https://github.com/radule90/CI_PP_2/archive/refs/heads/main.zip) and extract the zip file to your base folder.
+4. In your IDE Terminal change the current working directory to the one where you want the clone
+5. Type following code (for example is used GitHub CLI URL) in Git Bash/Terminal of IDE and press Enter:  
+
+     ```
+     git clone https://github.com/radule90/CI_PP_2.git
+     ```
+6. You can run the project by dropping index.html into a web browser or if you have Python installed, run it on an HTTP server with Python with a command such as:
+
+    ```
+    python3 -m http.server
+    ```
+
+#### How to Fork
+1. Go to the repository of [project](https://github.com/radule90/CI_PP_2)
+2. Bellow navigation bar on the top of the page in right corner you will locate Fork button
+3. When clicked, you should have a copy of repository in your GitHub
 
 ***
 ## Credits
